@@ -103,7 +103,7 @@ Try running the same command with a different value of `k`. How does this change
 
 Note that the script will run faster for smaller values of `k`.
 
-###Task 2: create a logistic regression model to classify sequences as binding vs. non-binding using one-hot encoding
+### Task 2: create a logistic regression model to classify sequences as binding vs. non-binding using one-hot encoding
 
 To run the script, it is necessary to specify the path to training and test data and result path.
 
