@@ -74,30 +74,30 @@ Process finished with exit code 0
 
 In addition to this information, in the resulting folder, there will be a few figures:
 
-- `k_mer_freqs_train.jpg`: showing the frequency of k-mers in positive examples vs. frequency of k-mers on negative examples on the training dataset.
-- `k_mer_freqs_test.jpg`: the same as previous one, on the test dataset.
+1. `k_mer_freqs_train.jpg`: showing the frequency of k-mers in positive examples vs. frequency of k-mers on negative examples on the training dataset.
+2. `k_mer_freqs_test.jpg`: the same as previous one, on the test dataset.
 
     Questions: 
     
-        - Are there any differences? 
-        - What do we expect to see given that the accuracy of the model was high?
+    - Are there any differences? 
+    - What do we expect to see given that the accuracy of the model was high?
 
-- `confusion_matrix.jpg`: confusion matrix shows how many examples (sequences in our case) were correctly classified as binding (true positives), 
+3. `confusion_matrix.jpg`: confusion matrix shows how many examples (sequences in our case) were correctly classified as binding (true positives), 
 wrongly classified as binding (false positives), correctly classified non-binding (true negatives) and wrongly classified as non-binding (false negatives).
 
     Questions: 
         
-        - How good is our classifier? 
-        - What can we see from the confusion matrix?
+    - How good is our classifier? 
+    - What can we see from the confusion matrix?
     
-- `top_n_coefficients.jpg`: logistic regression has a coefficient for each feature (each k-mer frequency). This plot shows 10 coefficients with highest absolute
+4. `top_n_coefficients.jpg`: logistic regression has a coefficient for each feature (each k-mer frequency). This plot shows 10 coefficients with highest absolute
 value from the model. Those values contribute the most to the prediction.
 
     Questions: 
     
-        - What does this mean for our model? 
-        - What k-mers is it detecting? 
-        - Can we interpret this somehow?
+    - What does this mean for our model? 
+    - What k-mers is it detecting? 
+    - Can we interpret this somehow?
     
 Try running the same command with a different value of `k`. How does this change results? What do we assume by setting the value of `k` to specific value?
 
