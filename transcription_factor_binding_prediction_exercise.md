@@ -109,7 +109,7 @@ To run the script, it is necessary to specify the path to training and test data
 
 ```commandline
 
-python train_test_log_reg_onehot.py --train_data USF1_K562_USF-1_HudsonAlpha/train.fa --test_data USF1_K562_USF-1_HudsonAlpha/test.fa --k 5 --result_path ./result_one_hot/
+python train_test_log_reg_onehot.py --train_data USF1_K562_USF-1_HudsonAlpha/train.fa --test_data USF1_K562_USF-1_HudsonAlpha/test.fa --result_path ./result_one_hot/
 
 ```
 
