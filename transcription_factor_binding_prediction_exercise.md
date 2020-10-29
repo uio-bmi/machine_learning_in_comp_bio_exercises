@@ -20,13 +20,13 @@ The code to train and test a ML model is available in this repository under scri
 
 The files are the following:
 
-1. `train_test_log_reg_kmer.py`: this script will take the data, encode it as k-mer frequencies, train the model on train.fa and test it on test.fa file.
+1. [`train_test_log_reg_kmer.py`](https://raw.githubusercontent.com/uio-bmi/machine_learning_in_comp_bio_exercises/main/scripts/train_test_log_reg_kmer.py): this script will take the data, encode it as k-mer frequencies, train the model on train.fa and test it on test.fa file.
 It will also produce a few figures that can be useful to examine the trained model.
 
-2. `train_test_log_reg_onehot.py`: this script will take the data, encode it using one-hot encoding, train the logistic regression model on train.fa and test
+2. [`train_test_log_reg_onehot.py`](https://raw.githubusercontent.com/uio-bmi/machine_learning_in_comp_bio_exercises/main/scripts/train_test_log_reg_onehot.py): this script will take the data, encode it using one-hot encoding, train the logistic regression model on train.fa and test
 it on test.fa file, again producing some useful figures.
 
-3. `util.py`: this is where the utility code is located. If you want to extend this example and try another machine learning model (e.g., random forest or any scikit-learn classifier), you can
+3. [`util.py`](https://raw.githubusercontent.com/uio-bmi/machine_learning_in_comp_bio_exercises/main/scripts/util.py): this is where the utility code is located. If you want to extend this example and try another machine learning model (e.g., random forest or any scikit-learn classifier), you can
 add a new function to this util file similar to `train_and_assess_logistic_regression(...)` and see in the other two files how this function is used.
 
 ### Running locally
