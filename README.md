@@ -1,6 +1,6 @@
 # Machine Learning in Computational Biology Exercises
 
-This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course.
+This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course at UiO.
 
 ## Exercise 1: Transcription Factor Binding Prediction
 
