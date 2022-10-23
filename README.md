@@ -11,10 +11,10 @@ We will run Exercise_1.ipnyb notebook to train the models and then examine the r
 
 The dataset for this exercise was downloaded from https://github.com/QData/DeepMotif.
 
-## Exercise 2: Transcription Factor Binding Prediction -- selecting hyperparameters
+## Exercise 2: Transcription Factor Binding Prediction - selecting hyperparameters
 
 In this exercise, we will have the same dataset as in Exercise 1 with the same aim of building a good predictive model. To that aim, 
-we will include cross validation (CV) to explore different hyperparameters and models.
+we will include cross validation (CV) to explore different hyperparameters and models. The exercise is in the Exercise_2.ipnyb notebook.
 
 ## Exercise 3: predicting disease states from adaptive immune receptor repertoires
 
