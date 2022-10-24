@@ -1,6 +1,11 @@
 # Machine Learning in Computational Biology Exercises
 
-This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course at UiO.
+This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course at UiO. It can be run online using Binder or Google Colab. 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/HEAD)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/blob/main/Exercise_1.ipnyb]
+
 
 ## Exercise 1: Transcription Factor Binding Prediction
 
