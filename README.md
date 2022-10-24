@@ -4,7 +4,7 @@ This repository contains exercises for the machine learning part of the IN-BIOS5
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/HEAD)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/Exercise_1.ipnyb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/Exercise_1.ipynb)
 
 
 ## Exercise 1: Transcription Factor Binding Prediction
