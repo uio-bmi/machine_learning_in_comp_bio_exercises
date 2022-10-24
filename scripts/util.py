@@ -5,7 +5,6 @@ import random
 import shutil
 from collections import Counter
 from pathlib import Path
-from typing import Tuple
 
 import pandas as pd
 import numpy as np
