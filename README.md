@@ -1,13 +1,12 @@
 # Machine Learning in Computational Biology Exercises
 
-This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course at UiO. It can be run online using Binder or Google Colab. 
+This repository contains exercises for the machine learning part of the IN-BIOS5000/IN-BIOS9000 course at UiO. It can be run online using Binder or Google Colab. Links to open specific notebooks in either of these environments are given below.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/HEAD)
+## Exercise 1: Transcription Factor Binding Prediction
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/blob/main/Exercise_1.ipynb)
 
-
-## Exercise 1: Transcription Factor Binding Prediction
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/main?labpath=Exercise_1.ipnyb)
 
 In this exercise, we will have a dataset consisting of DNA sequences which are labeled 0 or 1 if the transcription factor binds to them or 
 not, respectively. 
@@ -17,6 +16,10 @@ We will run Exercise_1.ipnyb notebook to train the models and then examine the r
 The dataset for this exercise was downloaded from https://github.com/QData/DeepMotif.
 
 ## Exercise 2: Transcription Factor Binding Prediction - selecting hyperparameters
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/blob/main/Exercise_2.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/main?labpath=Exercise_1.ipnyb)
 
 In this exercise, we will have the same dataset as in Exercise 1 with the same aim of building a good predictive model. To that aim, 
 we will include cross validation (CV) to explore different hyperparameters and models. The exercise is in the Exercise_2.ipnyb notebook.
