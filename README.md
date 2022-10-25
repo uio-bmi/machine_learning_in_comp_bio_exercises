@@ -32,3 +32,13 @@ different threats. By using machine learning, it might be possible to predict if
 
 In this exercise, we will use a public immuneML Galaxy tool to build an ML model that will be able to classify between repertoires coming from
 healthy and diseased individuals.
+
+Steps:
+
+1. Go to https://galaxy.immuneml.uiocloud.no
+2. Select the shared history from the top menu: Shared Data -> Histories -> Quickstart Data
+3. Click on the plus sign in the top right corner to import history: the data will then be shown in the right sidebar and can be examined by clicking on the eye icon
+4. From the menu on the left, select immuneML tools -> Create immuneML dataset tool, and provide the data to required fields and click on the Execute button to create the dataset: the dataset will show up in the right sidebar and will turn green when the tool has finished the execution
+5. From the menu on the left, select immuneML tools -> Train immune repertoire classifiers (simplified interface) tool and fill in the parameters from the suggested list in the tool: when the tool has finished the execution click on the eye icon of the Summary: repertoire classification element to examine the results.
+
+The results show the performance of algorithms and encodings selected in step 5 using nested cross validation. Look into the results in both the inner cross validation (selection) and the outer (assessment) and compare them.
