@@ -4,8 +4,6 @@ This repository contains exercises for the machine learning part of the IN-BIOS5
 
 ## Exercise 1: Transcription Factor Binding Prediction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/blob/main/Exercise_1.ipynb)
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/main?labpath=Exercise_1.ipnyb)
 
 In this exercise, we will have a dataset consisting of DNA sequences which are labeled 0 or 1 if the transcription factor binds to them or 
@@ -16,8 +14,6 @@ We will run Exercise_1.ipnyb notebook to train the models and then examine the r
 The dataset for this exercise was downloaded from https://github.com/QData/DeepMotif.
 
 ## Exercise 2: Transcription Factor Binding Prediction - selecting hyperparameters
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uio-bmi/machine_learning_in_comp_bio_exercises/blob/main/Exercise_2.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uio-bmi/machine_learning_in_comp_bio_exercises/main?labpath=Exercise_1.ipnyb)
 

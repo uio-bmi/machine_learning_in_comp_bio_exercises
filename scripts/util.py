@@ -43,6 +43,8 @@ def assess_model(model, encoded_train, train_labels, encoded_test, test_labels, 
     plot_confusion_matrix(result_path, test_labels, test_predictions)
     plot_top_n_coefficients(model.coef_.flatten(), model.__class__.__name__, feature_names, result_path, 10)
 
+    return accuracy
+
 
 def print_dataset_info(train_dataset, test_dataset=None):
     print(
