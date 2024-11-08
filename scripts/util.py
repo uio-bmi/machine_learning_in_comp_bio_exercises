@@ -138,7 +138,8 @@ def encode_kmer(k: int, data: pd.DataFrame, learn_model: bool, path: str, split:
                                axis=1).values.tolist()
 
     vectorized_examples = vectorizer.fit_transform(encoded_kmers) if learn_model else vectorizer.transform(encoded_kmers)
-    feature_names = vectorizer.get_feature_names()
+    feature_names = vectorizer.get_feature_names_out().tolist()
+    print(feature_names)
 
     normalized_examples = normalize(vectorized_examples, norm='l2', axis=1)
     scaled_examples = scaler.fit_transform(normalized_examples) if learn_model else scaler.transform(normalized_examples)
@@ -156,7 +157,7 @@ def show_design_matrix(examples, labels, path, learn_model, feature_names):
     df = pd.DataFrame(data=examples, columns=feature_names)
     df['label'] = labels
 
-    df = df[['label'] + feature_names]
+    # df = df[['label'] + feature_names]
 
     print(f"{'Train' if learn_model else 'Test'} dataset normalized design matrix preview\n\n")
     print(df.iloc[:, :7].head(10))
